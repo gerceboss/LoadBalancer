@@ -1,6 +1,6 @@
-## Simple Load Balancer in Go
+## Load Balancer in Go
 
-This project implements a basic load balancer in Go. It distributes incoming HTTP requests across multiple backend servers, offering two load balancing strategies: Round-Robin and Least Connections. It leverages Go's built-in `http` package for server functionality and the `httputil` package's reverse proxy capability to forward requests efficiently.
+This project implements a load balancer in Go. It distributes incoming HTTP requests across multiple backend servers, offering two load balancing strategies: Round-Robin and Least Connections. It leverages Go's built-in `http` package for server functionality and the `httputil` package's reverse proxy capability to forward requests efficiently.
 
 ## Architecture
 
